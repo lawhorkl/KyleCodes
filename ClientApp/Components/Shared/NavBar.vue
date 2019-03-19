@@ -6,7 +6,7 @@
             <v-spacer></v-spacer>
             <v-toolbar-items class="white--text">
                 <v-btn class="white--text" to="/" flat>Home</v-btn>
-                <v-btn class="white--text" flat>Link Two</v-btn>
+                <v-btn class="white--text" to="Page" flat>Page</v-btn>
                 <v-btn class="white--text" flat>Link Three</v-btn>
             </v-toolbar-items>
         </v-toolbar>

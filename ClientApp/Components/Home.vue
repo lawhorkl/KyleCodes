@@ -1,7 +1,8 @@
 <template>
     <div>
       <section>
-        <v-parallax src="/img/cincy-skyline.jpeg" height="600">
+        <v-parallax :src="require('../assets/img/cincy-skyline.jpeg')" height="600">
+        <!-- <v-parallax src="https://github.com/vuetifyjs/parallax-starter/blob/master/template/assets/hero.jpeg?raw=true" height="600"> -->
           <v-layout
             column
             align-center
